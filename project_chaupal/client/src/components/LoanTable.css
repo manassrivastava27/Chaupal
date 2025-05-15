@@ -1,0 +1,65 @@
+/* Loan Table Styles */
+.loan-table-container {
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Ensure table container has defined width */
+    max-width: 900px; /* Limit max width */
+    margin-left: auto; /* Align to center */
+    margin-right: auto; /* Align to center */
+  }
+  
+  /* Loan Table Header */
+  .loan-table__title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Loan Table Styles */
+  .loan-table__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .loan-table__table th, .loan-table__table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .loan-table__table th {
+    background-color: #f7f7f7;
+    color: #555;
+  }
+  
+  .loan-table__table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .loan-table__table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Loan Status Badge Styles */
+  .status-badge {
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-weight: bold;
+  }
+  
+  .status-badge.pending {
+    background-color: #BF3E16 ;
+    
+    color: #fff;
+  }
+  
+  .status-badge.review {
+    background-color: #279CA3;
+    
+    color: #fff;
+  }
+  

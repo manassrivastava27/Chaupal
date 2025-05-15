@@ -1,0 +1,41 @@
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.upload-form input,
+.upload-form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.upload-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 14px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.upload-form button:hover {
+  background-color: #45a049;
+}
+
+.cancel-btn {
+  background-color: #999;
+  color: white;
+}
+.cancel-btn:hover {
+  background-color: #777;
+}

@@ -1,0 +1,18 @@
+#google_translate_element {
+    text-align: right;
+    margin: 10px;
+  }
+  
+  .goog-te-gadget {
+    font-size: 14px !important;
+    color: #333 !important;
+  }
+  
+  .goog-te-banner-frame.skiptranslate {
+    display: none !important;
+  }
+  
+  body {
+    top: 0px !important;
+  }
+  
